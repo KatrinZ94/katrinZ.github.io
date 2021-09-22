@@ -1,0 +1,116 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #333;
+}
+
+body.background{
+	background-color:#f0f0f5;
+}
+
+span{
+	font-size: 20px;
+	color: #000;
+	transition: 0.3s;
+	#padding: 80px 0px 80px 0px;
+}
+
+img{
+	width: 120px;
+	border-radius: 60px;
+	margin: 10px 15px 0 0;
+}
+
+table {
+	margin: 0;
+	float: right;
+}
+
+table tr td:first-child {
+	padding-right: 5px;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+a:hover {
+	color: #9494b8;
+	transition: 0.3s;
+}
+
+::-moz-selection {
+	color: white; 
+	background: #1A6DBB;
+}
+
+::selection {
+	color: white; 
+	background: #1A6DBB;
+}
+
+.content {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.intro {
+	margin: 150px 0 90px 0;
+	text-align: center;
+}
+
+.intro span {
+	margin-bottom: 10px;
+	font-size: 22px;
+	line-height: 40px;
+}
+
+.intro span.highlight {
+	background-color: #b1b1cd;
+	color: white;
+}
+
+.intro span.highlight-resume {
+	color: black;
+	transition: 0.3s;
+}
+
+.intro span.highlight-certificates {
+	color: black;
+	transition: 0.3s;
+}
+
+.intro span.highlight-resume:hover {
+	#background-color: #9494b8;
+	color: #9494b8;
+	transition: 0.3s;
+	#font-size:23px;
+}
+
+.intro span.highlight-certificates:hover {
+	#background-color: #9494b8;
+	color: #9494b8;
+	transition: 0.3s;
+}
+
+@media (max-width: 360px) {
+	.intro {
+		margin: 80px 0 80px 0;
+	}
+	
+	.intro span {
+		font-size: 18px;
+		line-height: 28px;
+	}
+	
+	img{
+		display: none;
+	}
+	
+	table {
+		float: none;
+	}
+}
